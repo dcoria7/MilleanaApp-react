@@ -7,6 +7,7 @@ This is an [Expo](https://expo.dev) project created with [`create-expo-app`](htt
 1. Install dependencies
 
    ```bash
+   sudo npm install --global expo-cli
    npm install
    ```
 
@@ -14,6 +15,9 @@ This is an [Expo](https://expo.dev) project created with [`create-expo-app`](htt
 
    ```bash
     npx expo start
+   or
+   sudo xcode-select --switch /Applications/Xcode.app
+   npx expo run:ios --device
    ```
 
 In the output, you'll find options to open the app in a
